@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+</head>
+<body>
+    <h1>formulário de cadastro</h1>
+    <form id="formulario" method="POST" action="#">
+<p>
+    <label for="nome">nome completo:</label>
+    <input type="text" id="nome" name="nome" placeholder="digite seu nome completo" required>
+</p>
+
+<p>
+<label for="fone">telefone:</label>
+<input type="tel" id="fone" name="fone" placeholder="digite seu telefone" required>
+</p>
+<p>
+<label for="email">Email:</label>
+<input type="email" id="email" name="email" placeholder="digite seu email" required> 
+</p>
+<p>
+<label for="observacao">Observação:</label>
+<textarea id="observacao" name="observacao" placeholder="digite sua Observação" required></textarea>
+</p>
+<p>
+<button type="submit">enviar</button>
+</p>
+    </form>
+    <div id="mensagem"></div>
+    <script src="script.js"></script>
+</body>
+</html>
